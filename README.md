@@ -1,3 +1,5 @@
 # crud-with-array
 
-array crud without framework using node.js
+Array crud without framework using node.js
+
+visit: https://caiocubeiro.github.io/crud-with-array/
