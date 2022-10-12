@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title> Prog Script</title>
+</head>
+
+<body onload="consulta()">
+    <div class="w3-container">
+        <div class="table">
+            <h2> Tabela </h2>
+
+            <table class="w3-table w3-striped w3-border table-sortable">
+                <thead>
+                    <tr>   
+                        <th>ID</th>
+                        <th>Nome</th>
+                        <th>Função</th>
+                        <th>Salário</th>
+                        <th>Editar</th>
+                        <th>Excluir</th>
+                    </tr>
+                </thead>
+                <tbody id="conteudoTabela">
+
+                </tbody>
+            </table>
+        </div>
+
+    </br>
+    </br>
+
+        <div class="cadastro">
+            <form action="/action_page.php">
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome"><br>
+                <label for="funcao">Função:</label><br>
+                <input type="text" id="funcao" name="funcao"><br>
+                <label for="salario">Salario:</label><br>
+                <input type="text" id="salario" name="salario"><br>
+                <label for="number"hidden>ID:</label><br>
+                <input id="id"hidden></input> <br><br>
+            </form> 
+            <button class="w3-button w3-black" onclick="cadastrar()"> Cadastrar </button>
+        </div>
+
+        
+    </div>
+</body>
+
+</html>
