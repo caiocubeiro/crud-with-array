@@ -96,8 +96,9 @@ function deletar() {
 function deletar2(id) {
     //delete a element
     console.log("Id:", id)
-    console.log("Comando delete:", id - 1)
-    empregados.splice(id - 1, 1)
+    let num2 = empregados.map(object => object.id).indexOf(id)
+    console.log("Comando delete:", num2)
+    empregados.splice(num2, 1)
     consulta();
     console.log(empregados)
     if (controle == false) {
