@@ -80,19 +80,7 @@ function atualiza(id, nome, funcao, salario) {
     edit = true
 }
 
-// D // 
-function deletar() {
-    //delete a element
-    console.log("Id:", document.getElementById("id").value)
-    let num2= empregados.findIndex(x => x = document.getElementById("id").value)
-    console.log("Comando delete:", num2)
-    empregados.splice(num2, 1)  
-    console.log(empregados)
-    if (controle == false) {
-        //qtdDelete++
-    }
-}
-
+// D //
 function deletar2(id) {
     //delete a element
     console.log("Id:", id)
