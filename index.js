@@ -67,6 +67,7 @@ function cadastrar() {
             a++
         }
         console.log("Cadastrou")
+        limpa();
     }
 }
 
